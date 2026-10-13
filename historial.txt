@@ -53,3 +53,7 @@
    53  git config --global user.email "bravoromina027@gmail.com"
    54  git config --global user.name "Romina"
    55  history > historial.txt
+   56  git add .
+   57  git commit -m "Punto 2"
+   58  git push
+   59  history > historial.txt
