@@ -57,3 +57,8 @@
    57  git commit -m "Punto 2"
    58  git push
    59  history > historial.txt
+   60  git add .
+   61  git commit -m "Historia actualizado"
+   62  git push
+   63  git status
+   64  history > historial.txt
