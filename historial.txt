@@ -1,0 +1,55 @@
+    1  exit
+    2  ssh-keygen
+    3  cd
+    4  pwd
+    5  ls - la
+    6  ls -la
+    7  cd.shh/
+    8  cd .ssh
+    9  cat id_rsa.pub
+   10  cd
+   11  git --version
+   12  cd $HOME
+   13  git clone git@github.com:minamina26/TP_AySO.git
+   14  cd TP_AySO
+   15  cd
+   16  cd $HOME/TP_AySO
+   17  ls -l
+   18  cd
+   19  mkdir repogit
+   20  mv TP_AySO repogit/
+   21  cd repogit/TP_AyS0
+   22  cd
+   23  mkdir repogit
+   24  cd
+   25  ls -la
+   26  ls -la repogit
+   27  cd  ~/repogit/TP_AySO
+   28  pwd
+   29  ls -l
+   30  cd
+   31  mkdir repogit
+   32  cd ~/repogit/TP_AySO
+   33  sudo cat/etc/shadow
+   34  sudo cat /etc/shadow
+   35  man grep
+   36  sudo grep VAGRANT /etc/shadow
+   37  grep vagrant /etc/shadow
+   38  sudo grep vagrant /etc/shadow
+   39  sudo grep -i Vagrant /etc/shadow
+   40  sudo grep -i vagrant /etc/shadow |awk -F ':''{print $2}' > pass_usuario.txt
+   41  cat pass_usuario.txt
+   42  sudo grep -i vagrant /etc/shadow
+   43  sudo grep -i vagrant /etc/shadow | awk -F ':' '{print $2}'
+   44  sudo grep -i vagrant /etc/shadow | awk -F ':' '{print $2}' > pass_usuario.txt
+   45  cat pass_usuario.txt
+   46  whoami
+   47  echo "Usuario=$(whoami)" >> pass_usuario.txt
+   48  cat pass_usuario.txt
+   49  history > historial.txt
+   50  ls
+   51  git add .
+   52  git commit -m "Punto 2"
+   53  git config --global user.email "bravoromina027@gmail.com"
+   54  git config --global user.name "Romina"
+   55  history > historial.txt
