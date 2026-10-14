@@ -1,0 +1,121 @@
+exit
+ssh-keygen
+cd
+pwd
+ls - la
+ls -la
+cd.shh/
+cd .ssh
+cat id_rsa.pub
+cd
+git --version
+cd $HOME
+git clone git@github.com:minamina26/TP_AySO.git
+cd TP_AySO
+cd
+cd $HOME/TP_AySO
+ls -l
+cd
+mkdir repogit
+mv TP_AySO repogit/
+cd repogit/TP_AyS0
+cd
+mkdir repogit
+cd
+ls -la
+ls -la repogit
+cd  ~/repogit/TP_AySO
+pwd
+ls -l
+cd
+mkdir repogit
+cd ~/repogit/TP_AySO
+sudo cat/etc/shadow
+sudo cat /etc/shadow
+man grep
+sudo grep VAGRANT /etc/shadow
+grep vagrant /etc/shadow
+sudo grep vagrant /etc/shadow
+sudo grep -i Vagrant /etc/shadow
+sudo grep -i vagrant /etc/shadow |awk -F ':''{print $2}' > pass_usuario.txt
+cat pass_usuario.txt
+sudo grep -i vagrant /etc/shadow
+sudo grep -i vagrant /etc/shadow | awk -F ':' '{print $2}'
+sudo grep -i vagrant /etc/shadow | awk -F ':' '{print $2}' > pass_usuario.txt
+cat pass_usuario.txt
+whoami
+echo "Usuario=$(whoami)" >> pass_usuario.txt
+cat pass_usuario.txt
+history > historial.txt
+ls
+git add .
+git commit -m "Punto 2"
+git config --global user.email "bravoromina027@gmail.com"
+git config --global user.name "Romina"
+history > historial.txt
+git add .
+git commit -m "Punto 2"
+git push
+history > historial.txt
+git add .
+git commit -m "Historia actualizado"
+git push
+git status
+history > historial.txt
+git add .
+git commit -m "ADD: agregado 1er ejercicio sobre pass_usuario.txt"
+git push
+git status
+ls -la ~ > permisos.txt
+echo "ls -la ~ > permisos.txt" >> permisos.txt
+cat permisos.txt
+git add .
+git commit -m "ADD: añadiendo archivo permisos"
+git push
+git status
+cat /etc/passwd | grep -v root | head -n10 | awk -F ':' '{print $1}' | sort > lista_ordenada
+cat lista_ordenada
+git add .
+git commit -m "ADD: lista de usuarios ordenada"
+git push
+git status
+cat << EOF >> README.md
+Alumna: Romina Bravo
+Division: 111
+Turno: Mañana
+EOF
+
+cat README.md
+git add .
+git commit -m "docs: agrego informacion del alumno al README"
+git push
+git status
+vim README.md
+cat README.md
+git add .
+git commit -m "docs: corrijo formato del README"
+git push
+git status
+cd
+mkdir  -p universidad/{alumnos/legajos{1..15},profesores/legajos{1..5}}
+tree universidad/
+apt
+sudo apt install tree
+tree universidad/
+cd ~/repogit/TP_AySO
+cat << EOF > script_dir.sh
+#!/bin/bash
+
+mkdir -p universidad/{alumnos/legajos{1..15},profesores/legajos{1..5}}
+EOF
+
+cat script_dir.sh
+chmod 777 script_dir.sh
+git add .
+commit -m "ADD: añadiendo script"
+git push
+git status
+git  commit -m "ADD: añadiendo script"
+git push
+git status
+history -a
